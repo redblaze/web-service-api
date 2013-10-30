@@ -3,7 +3,7 @@
     "description": "A set of libs to ease the construction of web service APIs",
     "main": "./lib/web_service_api.js",
     "author": "Chiyan Chen",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository" : {
         "type" : "git",
         "url" : "https://github.com/redblaze/web-service-api.git"
