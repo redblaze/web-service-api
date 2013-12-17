@@ -89,7 +89,7 @@ api.add("Math", "add", {
 ```
 
 <a name="api-handleRequests"/>
-### api.handleRequests(requests, callback)
+### api.handleRequests(context, requests, callback)
 
 The "requests" parameter is, naturally, a list of requests, where each request is an object of the following form:
 
@@ -104,7 +104,7 @@ The "requests" parameter is, naturally, a list of requests, where each request i
 For instance, to call the Math.add API we defined above:
 
 ```js
-api.handleRequests([
+api.handleRequests(null, [ // null context
     {
         "service": "Math",
         "action": "add",
